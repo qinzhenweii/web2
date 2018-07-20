@@ -46,7 +46,7 @@ nav>a{
     color: #333333;
     font-size: 16px;
     padding: 0 16px;
-    line-height: 98px;    /*行高，分开文字和选中色块*/
+    line-height: 98px;    /*行高，分开文字和选中色块 为什么设置行高就会居中，而且选中色块会自动向下*/
     display: inline-block;  /*设定行块级*/
 }
 /*nav>a:hover{*/
