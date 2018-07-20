@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*公用的样式*/
+.safe{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+/*左浮动*/
+.left{
+
+    float: left;
+
+}
+/*右浮动*/
+.right{
+    float:right;
+
+}
+/*清除浮动*/
+.clear::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+/*头部*/
+header{
+    height: 98px;
+    background-color: antiquewhite;
+}
+
+
+
+.logo{
+    padding-top: 15px;
+}
+nav{
+    font-size: 0px;
+}
+nav>a{
+    text-decoration: none;     /*去掉下划线*/
+    color: #333333;
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 98px;    /*行高，分开文字和选中色块*/
+    display: inline-block;  /*设定行块级*/
+}
+/*nav>a:hover{*/
+    /*color: #00a1f1;*/
+   /*border-bottom: 3px solid #00a1f1;*/
+/*}*/
+nav>a:hover{
+    color: #00a1f1;
+    border-bottom: 3px solid #00a1f1;
+}
